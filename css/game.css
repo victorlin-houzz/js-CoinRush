@@ -13,10 +13,27 @@ canvas {
   display:none;
   position: absolute;
   top: 200px;
-  left: 30px;
+  left: 20px;
   z-index: 1;
 }
 
+#intro {
+  position: absolute;
+  top: 450px;
+  left: 30px;
+  font-family: sans-serif;
+  font-size: 40px;
+}
+
+#five-sec {
+  position: absolute;
+  display: none;
+  top: 8px;
+  left: 180px;
+  color: rgb(255, 255, 0);
+  font-family: sans-serif;
+  font-size: 20px;
+}
 #pause {
   display:none;
   position: absolute;
@@ -45,9 +62,11 @@ canvas {
   top: 50px;
   left: 350px;
   z-index: 1;
-  cursor: pointer;
 }
 
+.start-button {
+  cursor: pointer;
+}
 /* Pulse */
 @-webkit-keyframes start-button {
   25% {

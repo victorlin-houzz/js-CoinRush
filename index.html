@@ -7,16 +7,25 @@
   <body>
     <div id="coinRushGameContainer">
       <img id='start-bg' src='sprites/start-bg.png'/>
-
+      <div id='intro'>
+        Left Arrow : Move Left<br/>
+        Right Arrow : Move Right<br/>
+        SPACE       : Jump<br/>
+        P Key       : Pause<br/>
+        Replay      : Restart the game<br/>
+      </div>
+      <p id='five-sec'>+5 sec</p>
       <div id='game-canvas'>
         <canvas></canvas>
       </div>
-      <img src='sprites/start.png' class='start-button' id='start'/>
-      <img id='game-over' src='sprites/gameover.png'/>
+      <div>
+        <img src='sprites/start.png' class='start-button' id='start'/>
+      </div>
+      <img id='game-over' class='start-button' src='sprites/gameover.png'/>
       <img id='pause' src='sprites/pause.png'/>
       <img id='restart' src='sprites/restart.png'/>
     </div>
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
+    <script src="lib/jquery.min.js"></script>
     <script type="application/javascript" src="vendor/keymaster.js"></script>
     <script type="application/javascript" src="vendor/input.js"></script>
     <script type="application/javascript" src="lib/bundle.js"></script>
