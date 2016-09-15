@@ -8,9 +8,8 @@
     "test": "test"
   },
   "scripts": {
-    "postinstall": "./node_modules/.bin/webpack"
+    "heroku-postbuild": "webpack --config webpack.config.js"
   },
-  
   "repository": {
     "type": "git",
     "url": "git+https://github.com/swissashley/js-game-coinRush"
