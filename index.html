@@ -6,10 +6,15 @@
 
   <body>
     <div id="coinRushGameContainer">
-      <canvas></canvas>
-      <div class='buttons'>
-        <button id='start'>Start</button>
+      <img id='start-bg' src='sprites/start-bg.png'/>
+
+      <div id='game-canvas'>
+        <canvas></canvas>
       </div>
+      <img src='sprites/start.png' class='start-button' id='start'/>
+      <img id='game-over' src='sprites/gameover.png'/>
+      <img id='pause' src='sprites/pause.png'/>
+      <img id='restart' src='sprites/restart.png'/>
     </div>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
     <script type="application/javascript" src="vendor/keymaster.js"></script>
