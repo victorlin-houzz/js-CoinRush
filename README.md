@@ -13,6 +13,8 @@ The general rule is to collect coins and avoid poison mushrooms, which would par
 Every 100 coins would give you extra 5 seconds!
 The game will end when times up.
 
+Disclaimer: This project is for demonstration only. If you really want to play Mario, please do it on a console. The graphics, sounds, and original design of Super Mario Bros. are all owned by Nintendo.
+
 ## Functionality & MVP  
 
 Users will be able to:
@@ -96,7 +98,7 @@ In addition to the webpack entry file, there will be three scripts involved in t
   }
 
   ...
-  
+
 ```
 
 ## Implementation Timeline
