@@ -1,0 +1,15 @@
+html, body, ul, li {
+  margin: 0;
+  border: 0;
+  padding: 0;
+}
+
+canvas {
+  display: block;
+}
+
+#start {
+  position: absolute;
+  top: 650px;
+  left: 50px;
+}

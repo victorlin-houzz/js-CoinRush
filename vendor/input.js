@@ -16,6 +16,8 @@
             key = 'RIGHT'; break;
         case 40:
             key = 'DOWN'; break;
+        case 80:
+            key = 'PAUSE'; break;
         case 88:
             key = 'JUMP'; break;
         case 90:
@@ -45,6 +47,7 @@
         },
         reset: function() {
           pressedKeys['RUN'] = false;
+          pressedKeys['PAUSE'] = false;
           pressedKeys['LEFT'] = false;
           pressedKeys['RIGHT'] = false;
           pressedKeys['DOWN'] = false;
