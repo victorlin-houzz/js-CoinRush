@@ -36,7 +36,7 @@ Users will be able to:
 
 This project will be implemented with the following technologies:
 
-- Vanilla JavaScript and `jquery` for overall structure and game logic,
+- `Vanilla JavaScript` and `jquery` for overall structure and game logic,
 - `HTML5 Canvas` for DOM manipulation and rendering.
 
 In addition to the webpack entry file, there will be three scripts involved in this project:
