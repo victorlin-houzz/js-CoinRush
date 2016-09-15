@@ -2,13 +2,13 @@
   "name": "CoinRush",
   "version": "1.0.0",
   "description": "This README would normally document whatever steps are necessary to get the application up and running.",
-  "main": "/lib/coin_rush.js",
+  "main": "index.js",
   "directories": {
     "doc": "docs",
     "test": "test"
   },
   "scripts": {
-    "heroku-postbuild": "webpack --config webpack.config.js"
+    "heroku-postbuild": "webpack --config webpack.config.js",
   },
   "repository": {
     "type": "git",
@@ -21,14 +21,10 @@
     "url": "https://github.com/swissashley/js-game-coinRush/issues"
   },
   "dependencies": {
-    "babel-core": "^6.14.0",
+    "babel-core": "^6.13.2",
     "babel-loader": "^6.2.4",
     "babel-preset-es2015": "^6.13.2",
-    "hover.css": "^2.0.2",
     "imports-loader": "^0.6.5",
-    "lodash": "^4.15.0",
-    "redux-logger": "^2.6.1",
-    "underscore": "^1.8.3",
     "webpack": "^1.13.1"
   },
   "engines": {
