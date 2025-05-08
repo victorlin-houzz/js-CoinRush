@@ -3,7 +3,7 @@
 # Coin Rush
 
 [Live site][coin-rush]
-[coin-rush]: https://swissashley.github.io/js-CoinRush/
+[coin-rush]: [https://swissashley.github.io/js-CoinRush/](https://victorlin-houzz.github.io/js-CoinRush/)
 
 ## Background
 
